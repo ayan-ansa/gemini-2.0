@@ -58,11 +58,6 @@ function Main({
       setQuery("");
     }
   };
-  // useEffect(() => {
-  //   if (!loading && searchResult.length > 0) {
-  //      scrollToBottom();
-  //   }
-  // }, [searchResult, loading]);
 
   // const scrollToBottom = () => {
   //   bottomRef.current?.scrollIntoView({ behavior: "smooth" });
