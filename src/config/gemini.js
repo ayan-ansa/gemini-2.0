@@ -13,10 +13,11 @@ const model = genAI.getGenerativeModel({
 const generationConfig = {
   temperature: 1,
   topP: 0.95,
-  topK: 64,
+  topK: 40, //before: 64
   maxOutputTokens: 8192,
   responseMimeType: "text/plain",
 };
+
 async function run(prompt) {
   const chatSession = model.startChat({
     generationConfig,
