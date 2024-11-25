@@ -1,12 +1,6 @@
 import { FaWandMagicSparkles, FaRegLightbulb } from "react-icons/fa6";
 import { IoTimerOutline } from "react-icons/io5";
 
-export const recentSearches = [
-  "What is react.js",
-  "What is angular.js",
-  "What is vue.js",
-];
-
 export const cardsData = [
   {
     id: 1,
